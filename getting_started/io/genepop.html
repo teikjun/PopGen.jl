@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Genepop format | PopGen.jl</title>
+    <meta name="description" content="Population Genetics in Julia">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/PopGen.jl/assets/css/0.styles.cd537ca5.css" as="style"><link rel="preload" href="/PopGen.jl/assets/js/app.7a452c33.js" as="script"><link rel="preload" href="/PopGen.jl/assets/js/3.7fe1cfbd.js" as="script"><link rel="preload" href="/PopGen.jl/assets/js/17.20f1945c.js" as="script"><link rel="prefetch" href="/PopGen.jl/assets/js/10.a16ef715.js"><link rel="prefetch" href="/PopGen.jl/assets/js/11.6f848485.js"><link rel="prefetch" href="/PopGen.jl/assets/js/12.7efcf189.js"><link rel="prefetch" href="/PopGen.jl/assets/js/13.86747f27.js"><link rel="prefetch" href="/PopGen.jl/assets/js/14.317ba437.js"><link rel="prefetch" href="/PopGen.jl/assets/js/15.83933e00.js"><link rel="prefetch" href="/PopGen.jl/assets/js/16.46290747.js"><link rel="prefetch" href="/PopGen.jl/assets/js/18.8c7dfd60.js"><link rel="prefetch" href="/PopGen.jl/assets/js/19.d0dbb6bc.js"><link rel="prefetch" href="/PopGen.jl/assets/js/20.2be1150f.js"><link rel="prefetch" href="/PopGen.jl/assets/js/21.cc6fefff.js"><link rel="prefetch" href="/PopGen.jl/assets/js/22.93d55c51.js"><link rel="prefetch" href="/PopGen.jl/assets/js/23.cc851fb6.js"><link rel="prefetch" href="/PopGen.jl/assets/js/24.99ceae3e.js"><link rel="prefetch" href="/PopGen.jl/assets/js/25.fe0bfb4b.js"><link rel="prefetch" href="/PopGen.jl/assets/js/26.dd583866.js"><link rel="prefetch" href="/PopGen.jl/assets/js/27.907bf677.js"><link rel="prefetch" href="/PopGen.jl/assets/js/4.b5866c71.js"><link rel="prefetch" href="/PopGen.jl/assets/js/5.49182ad9.js"><link rel="prefetch" href="/PopGen.jl/assets/js/6.a770d4a9.js"><link rel="prefetch" href="/PopGen.jl/assets/js/7.497f0ae8.js"><link rel="prefetch" href="/PopGen.jl/assets/js/8.a318e530.js"><link rel="prefetch" href="/PopGen.jl/assets/js/9.ff44f68e.js"><link rel="prefetch" href="/PopGen.jl/assets/js/vendors~docsearch.f0566a0d.js">
+    <link rel="stylesheet" href="/PopGen.jl/assets/css/0.styles.cd537ca5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/PopGen.jl/" class="home-link router-link-active"><!----> <span class="site-name">PopGen.jl</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/PopGen.jl/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/PopGen.jl/getting_started/about.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="/PopGen.jl/getting_started/install.html" class="nav-link">
+  Docs
+</a></div><div class="nav-item"><a href="/PopGen.jl/community.html" class="nav-link">
+  Contribute
+</a></div><div class="nav-item"><a href="https://github.com/pdimens/PopGen.jl" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/PopGen.jl/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/PopGen.jl/getting_started/about.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="/PopGen.jl/getting_started/install.html" class="nav-link">
+  Docs
+</a></div><div class="nav-item"><a href="/PopGen.jl/community.html" class="nav-link">
+  Contribute
+</a></div><div class="nav-item"><a href="https://github.com/pdimens/PopGen.jl" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Getting Started</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Importing Data</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/PopGen.jl/getting_started/io/file_import.html" class="sidebar-link">Reading in data</a></li><li><a href="/PopGen.jl/getting_started/io/delimited.html" class="sidebar-link">Delimited format</a></li><li><a href="/PopGen.jl/getting_started/io/genepop.html" class="active sidebar-link">Genepop format</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/PopGen.jl/getting_started/io/genepop.html#import-a-genepop-file-as-popdata" class="sidebar-link">Import a genepop file as PopData</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/PopGen.jl/getting_started/io/genepop.html#arguments" class="sidebar-link">arguments</a></li><li class="sidebar-sub-header"><a href="/PopGen.jl/getting_started/io/genepop.html#keyword-arguments" class="sidebar-link">keyword Arguments</a></li></ul></li><li class="sidebar-sub-header"><a href="/PopGen.jl/getting_started/io/genepop.html#format" class="sidebar-link">Format</a></li><li class="sidebar-sub-header"><a href="/PopGen.jl/getting_started/io/genepop.html#acknowledgements" class="sidebar-link">Acknowledgements</a></li></ul></li><li><a href="/PopGen.jl/getting_started/io/variantcall.html" class="sidebar-link">Variant Call Format</a></li><li><a href="/PopGen.jl/getting_started/io/datasets.html" class="sidebar-link">Provided datasets</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Tutorials</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Analyses</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>API</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="genepop-format"><a href="#genepop-format" class="header-anchor">#</a> Genepop format</h1> <h2 id="import-a-genepop-file-as-popdata"><a href="#import-a-genepop-file-as-popdata" class="header-anchor">#</a> Import a genepop file as <code>PopData</code></h2> <div class="language-julia extra-class"><pre class="language-julia"><code>genepop<span class="token punctuation">(</span>infile<span class="token punctuation">;</span> kwargs<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Example</span>
+julia<span class="token operator">&gt;</span> b <span class="token operator">=</span> genepop<span class="token punctuation">(</span><span class="token string">&quot;/data/wasp_hive.gen&quot;</span><span class="token punctuation">,</span> digits <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">,</span> popsep <span class="token operator">=</span> <span class="token string">&quot;POP&quot;</span><span class="token punctuation">)</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">Windows users</p> <p>Make sure to change your backslashes <code>\</code> to forward slashes <code>/</code></p></div> <h3 id="arguments"><a href="#arguments" class="header-anchor">#</a> arguments</h3> <ul><li><code>infile::String</code> : path to genepop file, in quotes</li></ul> <h3 id="keyword-arguments"><a href="#keyword-arguments" class="header-anchor">#</a> keyword Arguments</h3> <ul><li><code>digits::Integer</code>: number of digits denoting each allele (default: <code>3</code>)</li> <li><code>popsep::String</code> : word that separates populations in <code>infile</code> (default: &quot;POP&quot;)</li> <li><code>diploid::Bool</code>  : whether samples are diploid for parsing optimizations (default: <code>true</code>)</li> <li><code>silent::Bool</code>   : whether to print file information during import (default: <code>true</code>)</li></ul> <div class="custom-block tip"><p class="custom-block-title">population names</p> <p>By default, the file reader will assign numbers as population ID's (as Strings) in order of appearance in the genepop file. Use the <code>populations!</code> function to rename these with your own population ID's.</p></div> <h2 id="format"><a href="#format" class="header-anchor">#</a> Format</h2> <p>Files must follow standard Genepop formatting:</p> <ul><li>First line is a comment (and skipped)</li> <li>Loci are listed after first line as one-per-line without commas or in single comma-separated row</li> <li>A line with a particular and consistent keyword must delimit populations</li> <li><strong>Must</strong> be the same word each time and not a unique population name</li> <li>File is <strong>tab</strong> delimited or <strong>space</strong> delimited, but not both</li></ul> <div card="undefined" class="el-tabs el-tabs--top"><div class="el-tabs__header is-top"><div class="el-tabs__nav-wrap is-top"><div class="el-tabs__nav-scroll"><div role="tablist" class="el-tabs__nav is-top is-stretch" style="transform:translateX(-0px);"><div class="el-tabs__active-bar is-top" style="width:0px;transform:translateX(0px);ms-transform:translateX(0px);webkit-transform:translateX(0px);"></div></div></div></div></div><div class="el-tabs__content"><div role="tabpanel" aria-hidden="true" id="pane-null" aria-labelledby="tab-null" class="el-tab-pane" style="display:none;"><div class="language- extra-class"><pre class="language-text"><code>Wasp populations in New York
+Locus1
+Locus2
+Locus3
+POP
+Oneida_01,	250230	564568	110100
+Oneida_02,	252238	568558	100120
+Oneida_03,	254230	564558	090100
+POP
+Newcomb_01,	254230	564558	080100
+Newcomb_02,	000230	564558	090080
+Newcomb_03,	254230	000000	090100
+Newcomb_04,	254230	564000	090120
+</code></pre></div></div> <div role="tabpanel" aria-hidden="true" id="pane-null" aria-labelledby="tab-null" class="el-tab-pane" style="display:none;"><div class="language- extra-class"><pre class="language-text"><code>Wasp populations in New York
+Locus1,Locus2,Locus3
+POP
+Oneida_01,	250230	564568	110100
+Oneida_02,	252238	568558	100120
+Oneida_03,	254230	564558	090100
+POP
+Newcomb_01,	254230	564558	080100
+Newcomb_02,	000230	564558	090080
+Newcomb_03,	254230	000000	090100
+Newcomb_04,	254230	564000	090120
+</code></pre></div></div></div></div> <h2 id="acknowledgements"><a href="#acknowledgements" class="header-anchor">#</a> Acknowledgements</h2> <p>The original implementations of this parser were written using only Base Julia, and while the speed was fantastic, the memory footprint involved seemed unusually high (~650mb RAM to parse <code>gulfsharks</code>, which is only 3.2mb in size). However, thanks to the efforts of the <a href="https://github.com/JuliaData/CSV.jl" target="_blank" rel="noopener noreferrer">CSV.jl<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> team, we leverage that package to do much of the heavy lifting, in a multicore way, and all the while preserving the speed and reducing the memory footprint quite a bit!</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/pdimens/popgen.jl/edit/gh-pages/getting_started/io/genepop.md" target="_blank" rel="noopener noreferrer">Help us improve this page!</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">4/6/2020, 3:36:17 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/PopGen.jl/getting_started/io/delimited.html" class="prev">
+        Delimited format
+      </a></span> <span class="next"><a href="/PopGen.jl/getting_started/io/variantcall.html">
+        Variant Call Format
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/PopGen.jl/assets/js/app.7a452c33.js" defer></script><script src="/PopGen.jl/assets/js/3.7fe1cfbd.js" defer></script><script src="/PopGen.jl/assets/js/17.20f1945c.js" defer></script>
+  </body>
+</html>
