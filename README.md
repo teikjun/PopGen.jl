@@ -13,6 +13,6 @@ Invoke the package manager by pressing `]` on an empty line and `add` this repo
 
 ### Authors
 
-[![alt text](docs/img/orcid.png)](https://orcid.org/0000-0003-3823-0373) [![alt text](docs/.vuepress/public/images/twitter.png)](https://twitter.com/PVDimens) Pavel Dimens, PhD Candidate @ U. Southern Mississippi
+[![alt text](docs/img/orcid.png)](https://orcid.org/0000-0003-3823-0373) [![alt text](docs/img/twitter.png)](https://twitter.com/PVDimens) Pavel Dimens, PhD Candidate @ U. Southern Mississippi
 
-[![alt text](docs/img/orcid.png)](http://orcid.org/0000-0002-9100-217X) [![alt text](docs/.vuepress/public/images/twitter.png)](https://twitter.com/JasonSelwyn) Jason Selwyn, PhD Candidate @ Texas A&M University - Corpus Christi
+[![alt text](docs/img/orcid.png)](http://orcid.org/0000-0002-9100-217X) [![alt text](docs/img/twitter.png)](https://twitter.com/JasonSelwyn) Jason Selwyn, PhD Candidate @ Texas A&M University - Corpus Christi
